@@ -34,7 +34,7 @@ timestamp =
 
 Наприклад, для того щоб скрипт запускався кожних 15 хв. пишемо 
 
-`6*/15 * * * * cd /home/app_folder && /home/app_folder/venv/bin/python /home/app_folder/app.py >> /home/app_folder/cron.log 2>&1` 
+`*/15 * * * * cd /home/app_folder && /home/app_folder/venv/bin/python /home/app_folder/app.py >> /home/app_folder/cron.log 2>&1` 
 
 
 
