@@ -14,10 +14,10 @@
 
 ```
 [Telegram]
-api_id = 12345678
+api_id = get it here https://my.telegram.org/auth?to=apps
 api_hash = get it here https://my.telegram.org/auth?to=apps
 phone = +380
-username = MyUsername
+username = TgUsername
 send_to = +380
 
 [Credentials]
