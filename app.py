@@ -44,7 +44,8 @@ async def main(channel):
                                 f"{comment.date.astimezone(pytz.timezone('Europe/Kyiv'))} \
                                 {comment.text} {channel}/{message.id}?comment={comment.id}")
             # catching exceptions that arise when the administrator deleted a comment in the group 
-            except telethon.errors.rpcerrorlist.MsgIdInvalidError:
+            except Exception as err:
+                print(err)
                 print("Comment deleted by the administrator. Passed")
 
 with client:
